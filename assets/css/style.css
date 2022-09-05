@@ -1,0 +1,170 @@
+/* Import colors /*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Colors */
+:root {
+    --button: #FF0000;
+    --main-background:  #C4C4C4;
+    --background: #E5E5E5;
+    --text: #000;
+    --footer: #000;
+    --text-description: #9C9696;
+}
+
+/* General configs */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background);
+}
+
+/* CSS Main */
+.banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    margin: auto;
+}
+
+.banner div {
+    width: 100%;
+    height: 100%;
+}
+
+/* Sections content Banner */
+
+.content {
+    background-color: var(--background);
+    flex: 2;
+    display: flex;
+    padding: 80px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.content h1 {
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.content a { 
+    background-color: var(--button);
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px 60px;
+    width: 240px;
+    color: white;
+    font-weight: 700;
+}
+
+/* Sections images right */
+
+.slider {
+    background-color: var(--main-background);
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px;
+}
+
+.colection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+/* Header */
+
+main header {
+    position: absolute;
+    padding: 20px 80px;
+    width: 100%;
+}
+
+main header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main header nav input {
+    padding: 10px 20px;
+    outline: none;
+}
+
+main header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 70px;
+}
+
+main header nav ul li {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+/* Section */
+
+section {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+section div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    flex: 1;
+}
+
+section div img {
+    width: 100%;
+    height: 100%;
+}
+
+.explore {
+    flex: 2;
+    background-color: black;
+}
+
+.explore a {
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+}
+
+.explore a img {
+    width: 25px;
+    margin-bottom: -3px;
+}
